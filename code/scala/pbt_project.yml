@@ -58,6 +58,17 @@ pipelines:
       inputs: []
       outputs: []
     dependencies: {}
+  pipelines/W2:
+    name: W2
+    description: Really solid info
+    author: georgie.reinger@gmail.com
+    mode: batch
+    language: scala
+    createdAt: '2022-04-21 07:17:39'
+    datasets:
+      inputs: []
+      outputs: []
+    dependencies: {}
   workflows/Mary_Rath_MD:
     name: Mary_Rath_MD
     description: ''
@@ -97,7 +108,8 @@ jobs:
     name: Giuseppe_Hand_MDXavier_BreathAlison_Legros
     description: Really solid info
     fabricUID: null
-    scheduler: null
+    scheduler:
+      Airflow: {}
     jobSize: null
     scheduleCron: null
     timeout: null
